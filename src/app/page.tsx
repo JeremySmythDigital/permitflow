@@ -49,7 +49,7 @@ export default function HomePage() {
             to avoid friction, creating security blind spots.
           </p>
           <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-            <p className="text-left font-mono text-sm text-gray-800">
+            <p className="text-left font-mono text-sm text-gray-900 dark:text-gray-100">
               <span className="text-red-500"># What developers actually do:</span><br />
               <span className="text-blue-600">claude</span> code --dangerously-skip-permissions<br /><br />
               <span className="text-red-500"># What enterprises need:</span><br />
@@ -72,7 +72,7 @@ export default function HomePage() {
                 <FileText className="w-6 h-6 text-primary-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Audit Trail</h3>
-              <p className="text-gray-800">
+              <p className="text-gray-900 dark:text-gray-100">
                 Every permission request and decision is logged with full context. 
                 Know who approved what, when, and why.
               </p>
@@ -83,7 +83,7 @@ export default function HomePage() {
                 <Users className="w-6 h-6 text-accent-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Approval Workflow</h3>
-              <p className="text-gray-800">
+              <p className="text-gray-900 dark:text-gray-100">
                 Team leads review and approve/deny requests. Risk levels help prioritize 
                 what needs attention.
               </p>
@@ -94,7 +94,7 @@ export default function HomePage() {
                 <Zap className="w-6 h-6 text-green-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Templates</h3>
-              <p className="text-gray-800">
+              <p className="text-gray-900 dark:text-gray-100">
                 Create reusable permission templates for common actions. 
                 Auto-approve safe operations.
               </p>
@@ -146,7 +146,7 @@ export default function HomePage() {
             </div>
             <span className="font-bold">PermitFlow</span>
           </div>
-          <div className="flex gap-6 text-sm text-gray-800">
+          <div className="flex gap-6 text-sm text-gray-900 dark:text-gray-100">
             <Link href="/pricing" className="hover:text-gray-900">Pricing</Link>
             <Link href="/docs" className="hover:text-gray-900">Documentation</Link>
             <Link href="/privacy" className="hover:text-gray-900">Privacy</Link>
