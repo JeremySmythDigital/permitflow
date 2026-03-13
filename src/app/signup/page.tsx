@@ -51,7 +51,7 @@ export default function SignupPage() {
             </div>
           </Link>
           <h1 className="text-3xl font-bold">Create your account</h1>
-          <p className="text-gray-600 mt-2">Start your 14-day free trial</p>
+          <p className="text-gray-800 mt-2">Start your 14-day free trial</p>
         </div>
 
         <div className="card">
@@ -121,7 +121,7 @@ export default function SignupPage() {
             </button>
           </form>
 
-          <p className="mt-4 text-center text-sm text-gray-500">
+          <p className="mt-4 text-center text-sm text-gray-700">
             Already have an account?{' '}
             <Link href="/login" className="text-primary-600 hover:underline">
               Sign in
@@ -129,7 +129,7 @@ export default function SignupPage() {
           </p>
         </div>
 
-        <p className="mt-4 text-center text-xs text-gray-400">
+        <p className="mt-4 text-center text-xs text-gray-600">
           By signing up, you agree to our{' '}
           <Link href="/terms" className="underline">Terms</Link> and{' '}
           <Link href="/privacy" className="underline">Privacy Policy</Link>

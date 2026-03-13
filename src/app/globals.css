@@ -4,7 +4,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #111827;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +26,15 @@ body {
 
 .card {
   @apply bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6;
+}
+
+/* High contrast text */
+.text-readable {
+  @apply text-gray-800 dark:text-gray-200;
+}
+
+.text-readable-secondary {
+  @apply text-gray-700 dark:text-gray-300;
 }
 
 .btn-primary {

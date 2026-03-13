@@ -149,7 +149,7 @@ export default function PermissionRequestForm({ teamId, userId, onSuccess }: Per
                 className={`px-4 py-2 rounded-lg font-medium transition-all ${
                   riskLevel === r.id
                     ? r.color + ' ring-2 ring-offset-1'
-                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                    : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
                 }`}
               >
                 {r.label}

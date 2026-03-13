@@ -43,7 +43,7 @@ export default function Header({ user }: HeaderProps) {
           </div>
           <div>
             <h1 className="text-xl font-bold">PermitFlow</h1>
-            <p className="text-xs text-gray-500">AI Permission Governance</p>
+            <p className="text-xs text-gray-700">AI Permission Governance</p>
           </div>
         </div>
 
@@ -62,7 +62,7 @@ export default function Header({ user }: HeaderProps) {
             <div className="flex items-center gap-2">
               <div className="text-right">
                 <p className="text-sm font-medium">{user.name}</p>
-                <p className="text-xs text-gray-500">{user.email}</p>
+                <p className="text-xs text-gray-700">{user.email}</p>
               </div>
               <button className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
                 <LogOut className="w-5 h-5" />

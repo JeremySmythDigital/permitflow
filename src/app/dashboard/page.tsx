@@ -46,7 +46,7 @@ export default function DashboardPage() {
                 className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-colors ${
                   activeTab === tab.id
                     ? 'bg-primary-600 text-white'
-                    : 'bg-white text-gray-600 hover:bg-gray-100'
+                    : 'bg-white text-gray-800 hover:bg-gray-100'
                 }`}
               >
                 <Icon className="w-4 h-4" />
@@ -71,15 +71,15 @@ export default function DashboardPage() {
                   <h3 className="font-bold mb-4">Quick Stats</h3>
                   <div className="space-y-3">
                     <div className="flex justify-between">
-                      <span className="text-gray-500">Pending Requests</span>
+                      <span className="text-gray-700">Pending Requests</span>
                       <span className="font-semibold">3</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-500">Approved Today</span>
+                      <span className="text-gray-700">Approved Today</span>
                       <span className="font-semibold text-green-600">12</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-gray-500">Denied Today</span>
+                      <span className="text-gray-700">Denied Today</span>
                       <span className="font-semibold text-red-600">2</span>
                     </div>
                   </div>
@@ -88,13 +88,13 @@ export default function DashboardPage() {
                 <div className="card mt-4">
                   <h3 className="font-bold mb-4">Recent Activity</h3>
                   <div className="space-y-2 text-sm">
-                    <div className="text-gray-600">
+                    <div className="text-gray-800">
                       <span className="text-green-600">✓</span> API endpoint creation approved
                     </div>
-                    <div className="text-gray-600">
+                    <div className="text-gray-800">
                       <span className="text-red-600">✗</span> Database migration denied
                     </div>
-                    <div className="text-gray-600">
+                    <div className="text-gray-800">
                       <span className="text-blue-600">→</span> New permission requested
                     </div>
                   </div>
