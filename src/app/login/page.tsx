@@ -49,7 +49,7 @@ export default function LoginPage() {
             </div>
           </Link>
           <h1 className="text-3xl font-bold">Welcome back</h1>
-          <p className="text-gray-600 mt-2">Sign in to your account</p>
+          <p className="text-gray-800 mt-2">Sign in to your account</p>
         </div>
 
         <div className="card">
@@ -85,7 +85,7 @@ export default function LoginPage() {
             <div className="flex items-center justify-between">
               <label className="flex items-center gap-2">
                 <input type="checkbox" className="rounded" />
-                <span className="text-sm text-gray-600">Remember me</span>
+                <span className="text-sm text-gray-800">Remember me</span>
               </label>
               <Link href="/forgot-password" className="text-sm text-primary-600 hover:underline">
                 Forgot password?
@@ -101,7 +101,7 @@ export default function LoginPage() {
             </button>
           </form>
 
-          <p className="mt-4 text-center text-sm text-gray-500">
+          <p className="mt-4 text-center text-sm text-gray-700">
             Don't have an account?{' '}
             <Link href="/signup" className="text-primary-600 hover:underline">
               Start free trial

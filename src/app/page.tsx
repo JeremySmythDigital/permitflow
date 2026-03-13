@@ -43,13 +43,13 @@ export default function HomePage() {
       <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">The Problem</h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-800 mb-8">
             Developers skip AI coding tool permissions because the UX is broken. They run 
             <code className="bg-gray-200 px-2 py-1 rounded mx-1">--dangerously-skip-permissions</code> 
             to avoid friction, creating security blind spots.
           </p>
           <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-            <p className="text-left font-mono text-sm text-gray-600">
+            <p className="text-left font-mono text-sm text-gray-800">
               <span className="text-red-500"># What developers actually do:</span><br />
               <span className="text-blue-600">claude</span> code --dangerously-skip-permissions<br /><br />
               <span className="text-red-500"># What enterprises need:</span><br />
@@ -72,7 +72,7 @@ export default function HomePage() {
                 <FileText className="w-6 h-6 text-primary-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Audit Trail</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Every permission request and decision is logged with full context. 
                 Know who approved what, when, and why.
               </p>
@@ -83,7 +83,7 @@ export default function HomePage() {
                 <Users className="w-6 h-6 text-accent-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Approval Workflow</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Team leads review and approve/deny requests. Risk levels help prioritize 
                 what needs attention.
               </p>
@@ -94,7 +94,7 @@ export default function HomePage() {
                 <Zap className="w-6 h-6 text-green-600" />
               </div>
               <h3 className="text-xl font-bold mb-2">Templates</h3>
-              <p className="text-gray-600">
+              <p className="text-gray-800">
                 Create reusable permission templates for common actions. 
                 Auto-approve safe operations.
               </p>
@@ -124,7 +124,7 @@ export default function HomePage() {
       <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to secure your AI coding?</h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <p className="text-lg text-gray-800 mb-8">
             Start your 14-day free trial. No credit card required.
           </p>
           <Link
@@ -146,13 +146,13 @@ export default function HomePage() {
             </div>
             <span className="font-bold">PermitFlow</span>
           </div>
-          <div className="flex gap-6 text-sm text-gray-600">
+          <div className="flex gap-6 text-sm text-gray-800">
             <Link href="/pricing" className="hover:text-gray-900">Pricing</Link>
             <Link href="/docs" className="hover:text-gray-900">Documentation</Link>
             <Link href="/privacy" className="hover:text-gray-900">Privacy</Link>
             <Link href="/terms" className="hover:text-gray-900">Terms</Link>
           </div>
-          <p className="text-sm text-gray-500">© 2024 PermitFlow. All rights reserved.</p>
+          <p className="text-sm text-gray-700">© 2024 PermitFlow. All rights reserved.</p>
         </div>
       </footer>
     </div>

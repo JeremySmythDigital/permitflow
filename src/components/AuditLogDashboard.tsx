@@ -67,7 +67,7 @@ export default function AuditLogDashboard({ teamId }: AuditLogProps) {
       <h2 className="text-xl font-bold mb-4">Audit Trail</h2>
       
       {logs.length === 0 ? (
-        <p className="text-gray-500 text-center py-4">No activity yet</p>
+        <p className="text-gray-700 text-center py-4">No activity yet</p>
       ) : (
         <div className="space-y-2 max-h-[500px] overflow-y-auto">
           {logs.map((log) => (
@@ -82,10 +82,10 @@ export default function AuditLogDashboard({ teamId }: AuditLogProps) {
                   <span className="font-medium capitalize">
                     {log.action.replace(/_/g, ' ')}
                   </span>
-                  <ArrowRight className="w-3 h-3 text-gray-400" />
-                  <span className="text-sm text-gray-600">{log.resource_type}</span>
+                  <ArrowRight className="w-3 h-3 text-gray-600" />
+                  <span className="text-sm text-gray-800">{log.resource_type}</span>
                 </div>
-                <p className="text-xs text-gray-500">
+                <p className="text-xs text-gray-700">
                   <User className="w-3 h-3 inline mr-1" />
                   {log.users?.name || log.users?.email || 'System'}
                   {' • '}
@@ -95,7 +95,7 @@ export default function AuditLogDashboard({ teamId }: AuditLogProps) {
               </div>
 
               {log.details && (
-                <div className="text-xs text-gray-500 max-w-xs truncate">
+                <div className="text-xs text-gray-700 max-w-xs truncate">
                   {log.details.tool && `${log.details.tool}: `}
                   {log.details.action || log.details.reason || ''}
                 </div>
