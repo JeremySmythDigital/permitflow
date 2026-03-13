@@ -83,9 +83,9 @@ export default function AuditLogDashboard({ teamId }: AuditLogProps) {
                     {log.action.replace(/_/g, ' ')}
                   </span>
                   <ArrowRight className="w-3 h-3 text-gray-600" />
-                  <span className="text-sm text-gray-800">{log.resource_type}</span>
+                  <span className="text-sm text-gray-900 dark:text-gray-100">{log.resource_type}</span>
                 </div>
-                <p className="text-xs text-gray-700">
+                <p className="text-xs text-gray-700 dark:text-gray-300">
                   <User className="w-3 h-3 inline mr-1" />
                   {log.users?.name || log.users?.email || 'System'}
                   {' • '}

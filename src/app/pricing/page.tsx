@@ -81,7 +81,7 @@ export default function PricingPage() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-4">Simple, Transparent Pricing</h1>
-            <p className="text-xl text-gray-800">Start free. Scale as you grow.</p>
+            <p className="text-xl text-gray-900 dark:text-gray-100">Start free. Scale as you grow.</p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -102,14 +102,14 @@ export default function PricingPage() {
 
                 <div className="text-center mb-6">
                   <h2 className="text-2xl font-bold">{plan.name}</h2>
-                  <p className="text-gray-700">{plan.description}</p>
+                  <p className="text-gray-700 dark:text-gray-300">{plan.description}</p>
                 </div>
 
                 <div className="text-center mb-6">
                   {plan.price !== null ? (
                     <>
                       <span className="text-5xl font-bold">${plan.price}</span>
-                      <span className="text-gray-700">/month</span>
+                      <span className="text-gray-700 dark:text-gray-300">/month</span>
                     </>
                   ) : (
                     <span className="text-3xl font-bold">Custom</span>
@@ -120,7 +120,7 @@ export default function PricingPage() {
                   {plan.features.map((feature) => (
                     <li key={feature} className="flex items-center gap-2">
                       <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                      <span className="text-gray-800">{feature}</span>
+                      <span className="text-gray-900 dark:text-gray-100">{feature}</span>
                     </li>
                   ))}
                 </ul>
@@ -140,7 +140,7 @@ export default function PricingPage() {
             ))}
           </div>
 
-          <div className="mt-12 text-center text-gray-700">
+          <div className="mt-12 text-center text-gray-700 dark:text-gray-300">
             <p className="flex items-center justify-center gap-2">
               <Zap className="w-4 h-4 text-yellow-500" />
               All plans include 14-day free trial
@@ -175,7 +175,7 @@ export default function PricingPage() {
             ].map((faq) => (
               <div key={faq.q} className="card">
                 <h3 className="font-bold mb-2">{faq.q}</h3>
-                <p className="text-gray-800">{faq.a}</p>
+                <p className="text-gray-900 dark:text-gray-100">{faq.a}</p>
               </div>
             ))}
           </div>

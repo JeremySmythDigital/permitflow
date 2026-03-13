@@ -85,7 +85,7 @@ export default function LoginPage() {
             <div className="flex items-center justify-between">
               <label className="flex items-center gap-2">
                 <input type="checkbox" className="rounded" />
-                <span className="text-sm text-gray-800">Remember me</span>
+                <span className="text-sm text-gray-900 dark:text-gray-100">Remember me</span>
               </label>
               <Link href="/forgot-password" className="text-sm text-primary-600 hover:underline">
                 Forgot password?
@@ -101,7 +101,7 @@ export default function LoginPage() {
             </button>
           </form>
 
-          <p className="mt-4 text-center text-sm text-gray-700">
+          <p className="mt-4 text-center text-sm text-gray-700 dark:text-gray-300">
             Don't have an account?{' '}
             <Link href="/signup" className="text-primary-600 hover:underline">
               Start free trial

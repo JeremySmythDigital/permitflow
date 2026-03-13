@@ -4,7 +4,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #111827;
+  --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,17 +24,18 @@ body {
   background: linear-gradient(135deg, #0ea5e9 0%, #d946ef 100%);
 }
 
+/* Card with proper contrast for both modes */
 .card {
   @apply bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 p-6;
 }
 
-/* High contrast text */
-.text-readable {
-  @apply text-gray-800 dark:text-gray-200;
+/* Ensure text inside cards is readable */
+.card p, .card li, .card span {
+  @apply text-gray-700 dark:text-gray-300;
 }
 
-.text-readable-secondary {
-  @apply text-gray-700 dark:text-gray-300;
+.card h2, .card h3 {
+  @apply text-gray-900 dark:text-white;
 }
 
 .btn-primary {
