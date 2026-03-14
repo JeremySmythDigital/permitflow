@@ -62,7 +62,7 @@ export default function DocsPage() {
       <div className="mt-8 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
         <h3 className="font-semibold mb-2">Need Help?</h3>
         <p>
-          Contact us at <Link href="mailto:support@permguard.ai" className="text-primary-600 dark:text-primary-400 hover:underline">support@permguard.ai</Link>
+          Contact us at <Link href="mailto:support@ravenops.ai" className="text-primary-600 dark:text-primary-400 hover:underline">support@ravenops.ai</Link>
         </p>
       </div>
     </div>

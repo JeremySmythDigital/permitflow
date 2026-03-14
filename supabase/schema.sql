@@ -130,4 +130,4 @@ CREATE TRIGGER update_templates_timestamp
 
 -- Insert default data for testing (remove in production)
 -- INSERT INTO teams (id, name) VALUES ('team-1', 'Demo Team');
--- INSERT INTO users (id, email, name, role, team_id) VALUES ('user-1', 'demo@permitflow.ai', 'Demo User', 'admin', 'team-1');
+-- INSERT INTO users (id, email, name, role, team_id) VALUES ('user-1', 'demo@ravenops.ai', 'Demo User', 'admin', 'team-1');

@@ -33,7 +33,7 @@ export default function TermsPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">6. Contact</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          For questions about these terms, contact us at support@permguard.ai
+          For questions about these terms, contact us at support@ravenops.ai
         </p>
       </div>
     </div>

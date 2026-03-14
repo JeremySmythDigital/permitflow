@@ -28,12 +28,12 @@ export default function PrivacyPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">5. Your Rights</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          You have the right to access, correct, or delete your data. Contact us at privacy@permguard.ai for data requests.
+          You have the right to access, correct, or delete your data. Contact us at privacy@ravenops.ai for data requests.
         </p>
         
         <h2 className="text-xl font-semibold mt-8 mb-4">6. Contact</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          For privacy questions, contact us at privacy@permguard.ai
+          For privacy questions, contact us at privacy@ravenops.ai
         </p>
       </div>
     </div>

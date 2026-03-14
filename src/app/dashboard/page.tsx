@@ -13,7 +13,7 @@ const MOCK_USER = {
   id: 'user-1',
   teamId: 'team-1',
   name: 'Demo User',
-  email: 'demo@permguard.ai',
+  email: 'demo@ravenops.ai',
   role: 'admin' as const,
 }
 
