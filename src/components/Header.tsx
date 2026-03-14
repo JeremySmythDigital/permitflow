@@ -42,7 +42,7 @@ export default function Header({ user }: HeaderProps) {
             </svg>
           </div>
           <div>
-            <h1 className="text-xl font-bold">PermitFlow</h1>
+            <h1 className="text-xl font-bold">PermGuard</h1>
             <p className="text-xs text-gray-700 dark:text-gray-300">AI Permission Governance</p>
           </div>
         </div>

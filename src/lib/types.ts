@@ -1,4 +1,4 @@
-// Types for PermitFlow MVP
+// Types for PermGuard MVP
 
 export interface User {
   id: string

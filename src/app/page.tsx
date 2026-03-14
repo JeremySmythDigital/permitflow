@@ -18,7 +18,7 @@ export default function HomePage() {
           </h1>
           
           <p className="text-xl md:text-2xl opacity-90 mb-8 max-w-2xl mx-auto">
-            PermitFlow gives teams audit trails, approval workflows, and reusable permission templates for AI coding tools.
+            PermGuard gives teams audit trails, approval workflows, and reusable permission templates for AI coding tools.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -144,7 +144,7 @@ export default function HomePage() {
             <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
               <Shield className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold">PermitFlow</span>
+            <span className="font-bold">PermGuard</span>
           </div>
           <div className="flex gap-6 text-sm text-gray-900 dark:text-gray-100">
             <Link href="/pricing" className="hover:text-gray-900">Pricing</Link>
@@ -152,7 +152,7 @@ export default function HomePage() {
             <Link href="/privacy" className="hover:text-gray-900">Privacy</Link>
             <Link href="/terms" className="hover:text-gray-900">Terms</Link>
           </div>
-          <p className="text-sm text-gray-700">© 2024 PermitFlow. All rights reserved.</p>
+          <p className="text-sm text-gray-700">© 2024 PermGuard. All rights reserved.</p>
         </div>
       </footer>
     </div>

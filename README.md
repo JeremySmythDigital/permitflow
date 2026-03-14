@@ -1,4 +1,6 @@
-# PermitFlow MVP
+# PermGuard MVP
+
+> Legacy/non-canonical workspace copy: retained for reference while `products/permitflow` is the canonical PermGuard codebase.
 
 AI Coding Permission Governance - Stop running `--dangerously-skip-permissions`
 

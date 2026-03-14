@@ -13,7 +13,7 @@ export default function PrivacyPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">2. How We Use Your Information</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          We use your information to provide and improve PermitFlow, process transactions, send notifications, and protect against fraud.
+          We use your information to provide and improve PermGuard, process transactions, send notifications, and protect against fraud.
         </p>
         
         <h2 className="text-xl font-semibold mt-8 mb-4">3. Data Security</h2>
@@ -28,12 +28,12 @@ export default function PrivacyPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">5. Your Rights</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          You have the right to access, correct, or delete your data. Contact us at privacy@permitflow.ai for data requests.
+          You have the right to access, correct, or delete your data. Contact us at privacy@permguard.ai for data requests.
         </p>
         
         <h2 className="text-xl font-semibold mt-8 mb-4">6. Contact</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          For privacy questions, contact us at privacy@permitflow.ai
+          For privacy questions, contact us at privacy@permguard.ai
         </p>
       </div>
     </div>

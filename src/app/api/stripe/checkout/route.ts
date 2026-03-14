@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2023-10-16',
 })
 
-const PRICE_ID = process.env.STRIPE_PRICE_ID || 'price_permitflow_monthly'
+const PRICE_ID = process.env.STRIPE_PRICE_ID || 'price_permguard_monthly'
 
 export async function POST(request: Request) {
   try {

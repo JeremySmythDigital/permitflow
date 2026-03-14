@@ -9,7 +9,7 @@ export default function DocsPage() {
         <div className="card">
           <h2 className="text-xl font-semibold mb-2">Getting Started</h2>
           <p className="mb-4">
-            Learn how to set up PermitFlow for your team and start managing AI coding permissions.
+            Learn how to set up PermGuard for your team and start managing AI coding permissions.
           </p>
           <ul className="list-disc list-inside space-y-2">
             <li>Create your team account</li>
@@ -34,7 +34,7 @@ export default function DocsPage() {
         <div className="card">
           <h2 className="text-xl font-semibold mb-2">API Reference</h2>
           <p className="mb-4">
-            Integrate PermitFlow with your existing tools and workflows.
+            Integrate PermGuard with your existing tools and workflows.
           </p>
           <div className="bg-gray-100 dark:bg-gray-900 p-4 rounded-lg font-mono text-sm">
             <p className="text-gray-600 dark:text-gray-400"># Check permission status</p>
@@ -47,7 +47,7 @@ export default function DocsPage() {
         <div className="card">
           <h2 className="text-xl font-semibold mb-2">Supported AI Tools</h2>
           <p className="mb-4">
-            PermitFlow integrates with popular AI coding assistants.
+            PermGuard integrates with popular AI coding assistants.
           </p>
           <div className="flex flex-wrap gap-2">
             {['Claude Code', 'Cursor', 'Continue', 'GitHub Copilot', 'Cline', 'Aider'].map((tool) => (
@@ -62,7 +62,7 @@ export default function DocsPage() {
       <div className="mt-8 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
         <h3 className="font-semibold mb-2">Need Help?</h3>
         <p>
-          Contact us at <Link href="mailto:support@permitflow.ai" className="text-primary-600 dark:text-primary-400 hover:underline">support@permitflow.ai</Link>
+          Contact us at <Link href="mailto:support@permguard.ai" className="text-primary-600 dark:text-primary-400 hover:underline">support@permguard.ai</Link>
         </p>
       </div>
     </div>

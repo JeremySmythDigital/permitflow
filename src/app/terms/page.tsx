@@ -8,17 +8,17 @@ export default function TermsPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">1. Acceptance of Terms</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          By accessing and using PermitFlow, you agree to be bound by these Terms of Service and all applicable laws and regulations.
+          By accessing and using PermGuard, you agree to be bound by these Terms of Service and all applicable laws and regulations.
         </p>
         
         <h2 className="text-xl font-semibold mt-8 mb-4">2. Subscription and Payment</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          PermitFlow offers subscription-based access. You will be charged the applicable subscription fees on a monthly basis. All payments are processed securely through Stripe.
+          PermGuard offers subscription-based access. You will be charged the applicable subscription fees on a monthly basis. All payments are processed securely through Stripe.
         </p>
         
         <h2 className="text-xl font-semibold mt-8 mb-4">3. Use License</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          Permission is granted to temporarily use PermitFlow for personal or commercial business purposes. This license does not include reselling or redistributing the service.
+          Permission is granted to temporarily use PermGuard for personal or commercial business purposes. This license does not include reselling or redistributing the service.
         </p>
         
         <h2 className="text-xl font-semibold mt-8 mb-4">4. User Data</h2>
@@ -33,7 +33,7 @@ export default function TermsPage() {
         
         <h2 className="text-xl font-semibold mt-8 mb-4">6. Contact</h2>
         <p className="text-gray-900 dark:text-gray-100 mb-4">
-          For questions about these terms, contact us at support@permitflow.ai
+          For questions about these terms, contact us at support@permguard.ai
         </p>
       </div>
     </div>

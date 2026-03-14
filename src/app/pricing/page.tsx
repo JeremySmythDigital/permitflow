@@ -71,7 +71,7 @@ export default function PricingPage() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.822 10.29 9 11.622 5.178-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
-            <span className="text-xl font-bold">PermitFlow</span>
+            <span className="text-xl font-bold">PermGuard</span>
           </Link>
         </div>
       </header>
@@ -157,7 +157,7 @@ export default function PricingPage() {
           <div className="space-y-6">
             {[
               {
-                q: 'What AI tools does PermitFlow work with?',
+                q: 'What AI tools does PermGuard work with?',
                 a: 'Currently supports Claude Code, Cursor, Continue, and can be extended to any AI coding tool.',
               },
               {
@@ -166,7 +166,7 @@ export default function PricingPage() {
               },
               {
                 q: 'Can I use my existing authentication?',
-                a: 'Yes! PermitFlow supports SSO/SAML on Enterprise plans, and we can integrate with your existing auth provider.',
+                a: 'Yes! PermGuard supports SSO/SAML on Enterprise plans, and we can integrate with your existing auth provider.',
               },
               {
                 q: 'What happens if my trial ends?',

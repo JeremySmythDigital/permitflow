@@ -13,7 +13,7 @@ const MOCK_USER = {
   id: 'user-1',
   teamId: 'team-1',
   name: 'Demo User',
-  email: 'demo@permitflow.ai',
+  email: 'demo@permguard.ai',
   role: 'admin' as const,
 }
 
